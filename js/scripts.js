@@ -40,13 +40,14 @@ function birthdate() {
 
     "Sunday: Akosua"
   ];
-  
+  function result(){
   if (male.checked == true) {
-    console.log("male");
     alert(namesMale[d]);
+    document.getElementById("jina").innerHTML = namesMale[d];
   } else if (female.checked == true) {
-    console.log("female");
     alert(namesFemale[d]);
+    document.getElementById("jina").innerHTML = namesFemale[d];
   }
   
+}
 }
