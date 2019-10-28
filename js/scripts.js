@@ -43,10 +43,8 @@ function birthdate() {
 
   if (male.checked == true) {
     alert(namesMale[d]);
-    document.getElementById("jina").innerHTML = namesMale[d];
   } else if (female.checked == true) {
     alert(namesFemale[d]);
-    document.getElementById("jina").innerHTML = namesFemale[d];
   }
   
 }
