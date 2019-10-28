@@ -40,7 +40,7 @@ function birthdate() {
 
     "Sunday: Akosua"
   ];
-  function result(){
+
   if (male.checked == true) {
     alert(namesMale[d]);
     document.getElementById("jina").innerHTML = namesMale[d];
@@ -50,4 +50,4 @@ function birthdate() {
   }
   
 }
-}
+
